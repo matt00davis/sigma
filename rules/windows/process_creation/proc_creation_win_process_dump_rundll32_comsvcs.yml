@@ -25,7 +25,7 @@ detection:
             - 'rundll32'
             - '.dmp'
     selection_function:
-        Commandline|contains:
+        CommandLine|contains:
             - '#24'
             - '#+24'
             - 'MiniDump'
